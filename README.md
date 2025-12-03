@@ -73,13 +73,129 @@ Durante essa etapa, você pode orientar a IA para três entregas principais:
 Finalize seu projeto criando um **repositório no GitHub** (pode ser um **fork** deste).  
 No README do seu repositório, inclua:
 
-- Seu **prompt final** (PRD);  
-- Prints ou pequenos vídeos das interações com a IA;  
-- Um resumo do que o seu **App de Finanças Pessoais** faz;  
+- Seu **prompt final** (PRD);  PRD – Aplicativo de Organização Financeira Conversacional
+
+1. Contexto
+O projeto consiste em criar um aplicativo de Organização de Finanças Pessoais baseado em conversas, onde o usuário interage com um assistente financeiro por meio de linguagem natural. A proposta é eliminar a fricção dos métodos tradicionais, oferecendo uma experiência fluida, simples e intuitiva.
+
+2. Problema
+A maioria das pessoas abandona o controle financeiro por excesso de entrada manual, baixa personalização e interfaces pouco naturais. O aplicativo busca resolver isso com uma abordagem conversacional, automatizando tarefas e oferecendo orientações personalizadas.
+
+3. Público-Alvo
+Pessoas iniciantes no controle financeiro.
+Usuários que desejam organizar suas finanças sem complexidade.
+Pessoas que preferem interações naturais em vez de interfaces tradicionais.
+
+4. Funcionalidades-Chave
+4.1 Registro de Gastos via Chat
+O usuário informa seus gastos em linguagem natural.
+
+4.2 Classificação Automática
+O sistema identifica categoria, data e tipo de transação, permitindo correções via conversa.
+
+4.3 Metas Financeiras
+Criar metas simples e acompanhar o progresso com feedbacks periódicos.
+
+4.4 Agente Financeiro
+Envia dicas personalizadas de economia e sugere ajustes de hábitos.
+
+4.5 Relatórios Simples
+Visualização de gastos por categoria, resumo semanal e mensal, com linguagem acessível.
+
+5. Entregável da IA
+Gerar um plano de MVP com telas essenciais, recursos mínimos, fluxo principal do usuário e um esboço de validação inicial. Usar linguagem educativa e acessível.
+
+6. MVP – Proposta Inicial
+
+6.1 Telas Essenciais
+Onboarding.
+Chat principal.
+Tela de metas.
+Relatórios básicos.
+Configurações simples.
+
+6.2 Recursos Necessários
+Motor de NLP para interpretar mensagens.
+Classificador automático de categorias.
+Banco de dados de transações.
+Módulo de geração de insights.
+Interface de chat responsiva.
+
+6.3 Validação Inicial
+Hipóteses:
+- Usuários preferem registrar gastos por conversa.
+- Recomendações personalizadas aumentam engajamento.
+- Relatórios simples são suficientes para iniciantes.
+
+Métricas:
+- Percentual de usuários que registram gastos por 7 dias.
+- Tempo médio de uso por sessão.
+- Taxa de correção das classificações automáticas.
+- NPS inicial.
+
+Testes sugeridos:
+- Entrevistas com 5 a 10 usuários.
+- Teste de usabilidade do chat.
+- Testes A/B de mensagens do Agente Financeiro.
+
+7. Princípios de Design – Design Universal
+
+7.1 Acessibilidade
+Compatibilidade com leitores de tela.
+Contraste adequado.
+Fontes ajustáveis.
+Navegação clara.
+
+7.2 Linguagem Simples
+Textos diretos e sem jargões.
+Explicações opcionais para termos técnicos.
+Exemplos práticos durante a conversa.
+
+7.3 Interação Inclusiva
+Chat projetado para diferentes ritmos de digitação e compreensão.
+Respostas claras e contextualizadas.
+Possibilidade futura de uso por voz.
+
+7.4 Flexibilidade de Uso
+Funciona para quem quer apenas registrar gastos ou para quem quer metas e relatórios.
+Permite correções simples.
+
+7.5 Consistência Visual
+Ícones intuitivos.
+Layout limpo.
+Paleta de cores neutra.
+
+8. Elemento Divertido na Página Inicial
+
+8.1 Momento Financeiro do Dia
+Bloco interativo exibido ao abrir o app, contendo:
+- Curiosidade financeira divertida.
+- Mini-desafio diário.
+- Frase motivacional leve.
+- Mascote financeiro reagindo às conquistas do usuário.
+
+8.2 Objetivo
+Criar conexão emocional.
+Tornar o hábito de abrir o app mais agradável.
+Incentivar pequenas ações positivas.
+
+8.3 Regras de Design
+Conteúdo curto e leve.
+Humor gentil.
+Visual minimalista.
+Compatível com design universal.
+
+- Prints ou pequenos vídeos das interações com a IA;  https://i.im.ge/2025/12/03/4Euw0z.1002855002.png
+- Um resumo do que o seu **App de Finanças Pessoais** faz;  Resumo do App – Meu Financeiro
+
+"Meu Financeiro" é um assistente financeiro pessoal que permite ao usuário registrar e organizar seus gastos por meio de conversas em linguagem natural. Basta digitar frases como “Gastei R$50 no almoço” e a IA registra automaticamente. O app também oferece dicas de economia, relatórios de receitas, despesas e saldo, e uma experiência acessível e intuitiva, sem a necessidade de planilhas ou formulários complexos.
+
 - Uma breve **reflexão sobre o processo**:
-  - O que funcionou bem?  
-  - O que não funcionou como o esperado?  
-  - O que aprendeu sobre conversar com IAs?
+  - O que funcionou bem?  adorei interagir com a ia e poder fazer algo do zero sem precisar ser profissional da area
+  - 
+  - O que não funcionou como o esperado? o app deu um erro quando tentei usar nao tirei foto mas deu fora isso foi uma esperiencia maravilhosa 
+  - 
+  - O que aprendeu sobre conversar com IAs? aprendi que hoje em dia podemos conversar por igual que as ias veio para nos ajudar e para facilitar nossas vidas ....
 
 > [!TIP]
 > Publique seu repositório e compartilhe o link na plataforma da DIO! Sua entrega é a prova de que você domina o raciocínio de Vibe Coding, mesmo sem escrever uma única linha de código.
